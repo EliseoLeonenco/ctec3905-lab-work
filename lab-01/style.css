@@ -1,0 +1,12 @@
+
+body {
+    background-color: black;
+    color: green;
+    width: 600px;
+    margin-inline: auto;
+}
+
+.special {
+    background-color: black;
+    color: red;
+}
