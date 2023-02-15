@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-family: sans-serif;
+
+}
+
+nav a {
+        padding: 1em;
+        text-decoration: none;
+
+}
+
+nav a:last-child {
+    background-color: aquamarine;
+    color: white;
+    border-radius: 0.3em;
+    
+}
