@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+
+body {
+    background-color: #444;
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    background-color: #fff;
+    margin: 5vh auto;
+    min-height: 90vh;
+    text-align: center;
+    overflow: auto;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+img {
+    width: 20%;
+    background-color: blue;
+}
+
+h1, h2 {
+    font-family: "Tourney", sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    background-color: red;
+}
+
+h2 {
+    font-size: 3em;
+    background-color: rebeccapurple;
+}
