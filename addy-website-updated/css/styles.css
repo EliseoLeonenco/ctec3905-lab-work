@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    min-height: 101vh;
+    padding: 1em;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8em;
+    gap: 0.5em;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav a {
+    color: #d9e3ea;
+    padding: 1em;
+    border-radius: 3px;
+    
+    padding: 0.5em 1em;    
+}
+
+header a {
+    color: #feed73;
+}
+
+nav a:last-child {
+    background-color: #5badf0;
+}
+
+
+h1 {
+    font-size: 5em;
+    letter-spacing: -5px;
+    margin: 1em 0 0;
+}
+
+p.subheading {
+    opacity: 0.64;
+    margin: 0 0 0.5em;
+    font-size: 1.5em;
+}
+
+header h2 {
+    opacity: 0.64;
+
+}
+
+.gallery {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.gallery img {
+    border-radius: 4px;
+}
+
+.gallery figcaption {
+    font-size: 0.7em;
+    opacity: 0.64;
+}
