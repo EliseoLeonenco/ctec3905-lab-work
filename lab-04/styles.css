@@ -11,16 +11,32 @@ body {
 }
 
 #menuToggler {
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
     color: white;
     font-size: 3em;
     text-align: right;
     line-height: 1em;
     padding: 0 1rem;
+    z-index: 1;
 }
 
 nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    opacity: 0;
+    transform: translateX(100vw);
+    transition: 0.4s;
+}
+
+nav.open {
+    transform: none;
+    opacity: 1;
 }
 
 nav a {
@@ -30,3 +46,24 @@ nav a {
     font-size: 2em;
     text-align: center;
 }
+
+@media screen and (min-width: 515px) {
+
+    #menuToggler {
+      display: none;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: row;
+      transform: none;
+      opacity: 1;
+      height: auto;
+      position: static;
+    }
+
+    nav a {
+        font-size: 1.3em;
+    }
+  
+  }
